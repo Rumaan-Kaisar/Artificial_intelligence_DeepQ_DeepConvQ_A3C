@@ -1,0 +1,79 @@
+	
+	-------------	3 projects (13h 53 min)	 -------------
+
+	1.	Fundamentals Of Reinforcement Learning :: (2h 12 min)
+
+			Why AI	5 min
+			Introduction	4 min
+
+			Q-Learning Intuition:	2h 3 min
+				Plan of Attack
+				What is reinforcement learning
+				The Bellman Equation
+				The Plan
+				Markov Decision Process
+				Policy vs Plan
+				Adding a Living Penalty
+				Q-Learning Intuition
+				Temporal Difference
+				Q-Learning Visualization
+
+
+
+	2.	Deep Q-Learning: Self Driving car :: (4h 47 min)
+
+			Deep Q-Learning Intution: 56 min
+
+				Plan of Attack
+				Learning
+				Acting
+				Experience Replay
+				Action Selection Policies
+
+			Installation: 40 min
+
+				Anaconda
+				Kivy
+				Pytorch
+				Getting started
+
+			Creating Environment: 26 min
+
+			Bulding the AI: 2h 18 min
+
+			Testing the AI: 27 min
+		
+
+
+	3.	Deep Convolutional Q-Learning: "DOOM" Game playing AI :: (3h 23 min)
+
+			Deep Convolutional Q-Learning Intution: 20 min
+
+				Plan of Attack
+				Deep Convolutional Q-Learning Intuition
+				Eligibility Trace
+
+			Installation: 11 min
+
+			Bulding the AI: 2h 32 min
+
+			Testing the AI: 20 min
+
+
+
+		
+	4.	AC3 : "Breakdown" Game playing AI :: (3h 30 min)
+
+			Intution: 58 min
+
+				Plan of Attack
+				The three A's in A3C
+				Actor-Critic
+				Asynchronous
+				Advantage
+				LSTM Layer
+
+			Installation: not specified
+
+			Bulding & Testing the AI: 2h 31 min
+
