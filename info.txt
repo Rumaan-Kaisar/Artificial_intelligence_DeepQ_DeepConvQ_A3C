@@ -77,3 +77,13 @@
 
 			Bulding & Testing the AI: 2h 31 min
 
+
+
+
+http://ai.berkeley.edu/home.html
+http://ai.berkeley.edu/reinforcement.html
+download the zip file
+download the web page using:
+https://www.web2pdfconvert.com/
+https://github.com/aliasad059/intelligent-pacman
+
