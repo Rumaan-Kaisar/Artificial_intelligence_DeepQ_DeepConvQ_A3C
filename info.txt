@@ -87,3 +87,46 @@ download the web page using:
 https://www.web2pdfconvert.com/
 https://github.com/aliasad059/intelligent-pacman
 
+
+-----    Tutorial part    -----
+
+### SlfDvCar part-1 
+	Installation part
+	step 1 
+	step 2
+	step 3
+
+
+### SlfDvCar part-2 
+	----   NN architecture   ----
+	step 4 class NN artcr 14.5
+	step 5 fn frwrd 6
+
+	----   Experience Replay   ----
+	step 6 class ExpRp 6
+	step 7 fn push 5.75
+	step 8 fn smpl 10.75
+
+
+### SlfDvCar part-3 
+	----   Deep-Q   ----
+	step 9 fn class DQN 17.5
+	step 10 fn actn 13.5
+	step 11 fn learn 15.5
+	step 12 fn update 13
+	step 13 fn update 12.5
+	step 14 fn score 3
+	step 15 fn save 5.5
+	step 16 fn save 7.3
+
+
+### SlfDvCar part-4 
+	----   Application/test   ----
+	level 1 fn class DQN 9
+	level 2 fn class DQN 4.75
+	level 3 fn class DQN 7.3
+	level 4 fn class DQN 6.2
+
+
+
+
