@@ -117,7 +117,7 @@ https://github.com/aliasad059/intelligent-pacman
 	step 13 fn update 12.5
 	step 14 fn score 3
 	step 15 fn save 5.5
-	step 16 fn save 7.3
+	step 16 fn load 7.3
 
 
 ### SlfDvCar part-4 
