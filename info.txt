@@ -129,4 +129,72 @@ https://github.com/aliasad059/intelligent-pacman
 
 
 
+1.6 Step 4 : ai.py (import libraries)
+1.7 Step 3 : ai.py (import libraries)
+
+
+NN architecture
+2.7 step-4 NN architecture class (part 1): __init__
+2.8 step-5 NN architecture class (part 2): fn - forward
+
+
+Experience Replay
+2.9  step-6 Experience Replay class (part 1): __init__()
+2.10 step-7 Experience Replay class (part 2): push()
+2.11 step-8 Experience Replay class (part 3): sample()
+
+
+Deep-Q Learning class (the brain)
+2.12 step-9 DQN class (part 1): __init__
+2.13 step-10 DQN class (part 2): select_action()
+2.14 step-11 DQN class (part 3): learn()
+2.15 step-12 DQN class (part 4.1): update()
+2.16 step-13 DQN class (part 4.2): update()
+2.17 step-14 DQN class (part 5): score()
+2.18 step-15 DQN class (part 6): save()
+2.19 step-16 DQN class (part 7): load()
+
+
+Application/test
+2.20 App-Test (level-1)
+2.21 App-Test (level-2)
+2.22 App-Test (level-3)
+2.23 App-Test (level-4)
+
+
+
+
+
+### 3 - cnn & AI ### 
+----  DOOM part-1: Installation, lib, folder: 27 min  ----
+Step 00: env install
+Step 00: env install
+Step 01: install
+Step 02: lib & folder
+
+----  DOOM part-2: Brain, 40 min  ----
+Step 03: CNN class _init_ p1 create 5 variables]
+Step 04: CNN class _init_ p2 define 5 vars]
+Step 05: CNN class fn count-neuron]
+Step 06: CNN class fn forward]
+
+---- DOOM part-3: action playing 22 min ----
+Step 07: body (SoftmaxBody class) [p1] – init fn
+Step 08: body (SoftmaxBody class) [p2] forward fn
+Step 09: AI class [p1] – init fn
+Step 10: AI class [p2] – forward fn
+
+---- DOOM part-4: AI training mechanisms  ----
+Step 11: Doom env, actions
+Step 12: Building an AI:cnn, body, AI (obj)
+Step 13: Experience Replay
+Step 14: Eligibity Trace [p1]: fn
+Step 15: Eligibity Trace [p1]: fn
+Step 16: Moving Average: MA-class
+
+---- DOOM part-5: Train & Test using DQN ----
+Step 17: Apply training mechanisms
+Step 18: Test the AI
+
+
 
