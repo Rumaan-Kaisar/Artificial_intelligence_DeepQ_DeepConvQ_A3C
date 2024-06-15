@@ -1,0 +1,278 @@
+	
+	-------------	3 projects (13h 53 min)	 -------------
+
+	1.	Fundamentals Of Reinforcement Learning :: (2h 12 min)
+
+			Why AI	5 min
+			Introduction	4 min
+
+			Q-Learning Intuition:	2h 3 min
+				Plan of Attack
+				What is reinforcement learning
+				The Bellman Equation
+				The Plan
+				Markov Decision Process
+				Policy vs Plan
+				Adding a Living Penalty
+				Q-Learning Intuition
+				Temporal Difference
+				Q-Learning Visualization
+
+
+
+	2.	Deep Q-Learning: Self Driving car :: (4h 47 min)
+
+			Deep Q-Learning Intution: 56 min
+
+				Plan of Attack
+				Learning
+				Acting
+				Experience Replay
+				Action Selection Policies
+
+			Installation: 40 min
+
+				Anaconda
+				Kivy
+				Pytorch
+				Getting started
+
+			Creating Environment: 26 min
+
+			Bulding the AI: 2h 18 min
+
+			Testing the AI: 27 min
+		
+
+
+	3.	Deep Convolutional Q-Learning: "DOOM" Game playing AI :: (3h 23 min)
+
+			Deep Convolutional Q-Learning Intution: 20 min
+
+				Plan of Attack
+				Deep Convolutional Q-Learning Intuition
+				Eligibility Trace
+
+			Installation: 11 min
+
+			Bulding the AI: 2h 32 min
+
+			Testing the AI: 20 min
+
+
+
+		
+	4.	AC3 : "Breakdown" Game playing AI :: (3h 30 min)
+
+			Intution: 58 min
+
+				Plan of Attack
+				The three A's in A3C
+				Actor-Critic
+				Asynchronous
+				Advantage
+				LSTM Layer
+
+			Installation: not specified
+
+			Bulding & Testing the AI: 2h 31 min
+
+
+
+
+http://ai.berkeley.edu/home.html
+http://ai.berkeley.edu/reinforcement.html
+download the zip file
+download the web page using:
+https://www.web2pdfconvert.com/
+https://github.com/aliasad059/intelligent-pacman
+
+
+-----    Tutorial part    -----
+
+### SlfDvCar part-1 
+	Installation part
+	step 1 
+	step 2
+	step 3
+
+
+### SlfDvCar part-2 
+	----   NN architecture   ----
+	step 4 class NN artcr 14.5
+	step 5 fn frwrd 6
+
+	----   Experience Replay   ----
+	step 6 class ExpRp 6
+	step 7 fn push 5.75
+	step 8 fn smpl 10.75
+
+
+### SlfDvCar part-3 
+	----   Deep-Q   ----
+	step 9 fn class DQN 17.5
+	step 10 fn actn 13.5
+	step 11 fn learn 15.5
+	step 12 fn update 13
+	step 13 fn update 12.5
+	step 14 fn score 3
+	step 15 fn save 5.5
+	step 16 fn load 7.3
+
+
+### SlfDvCar part-4 
+	----   Application/test   ----
+	level 1 fn class DQN 9
+	level 2 fn class DQN 4.75
+	level 3 fn class DQN 7.3
+	level 4 fn class DQN 6.2
+
+
+
+1.6 Step 4 : ai.py (import libraries)
+1.7 Step 3 : ai.py (import libraries)
+
+
+NN architecture
+2.7 step-4 NN architecture class (part 1): __init__
+2.8 step-5 NN architecture class (part 2): fn - forward
+
+
+Experience Replay
+2.9  step-6 Experience Replay class (part 1): __init__()
+2.10 step-7 Experience Replay class (part 2): push()
+2.11 step-8 Experience Replay class (part 3): sample()
+
+
+Deep-Q Learning class (the brain)
+2.12 step-9 DQN class (part 1): __init__
+2.13 step-10 DQN class (part 2): select_action()
+2.14 step-11 DQN class (part 3): learn()
+2.15 step-12 DQN class (part 4.1): update()
+2.16 step-13 DQN class (part 4.2): update()
+2.17 step-14 DQN class (part 5): score()
+2.18 step-15 DQN class (part 6): save()
+2.19 step-16 DQN class (part 7): load()
+
+
+Application/test
+2.20 App-Test (level-1)
+2.21 App-Test (level-2)
+2.22 App-Test (level-3)
+2.23 App-Test (level-4)
+
+
+
+
+
+### 3 - cnn & AI ### 
+----  DOOM part-1: Installation, lib, folder: 27 min  ----
+Step 00: 5		env install
+Step 00: 5.5	env install
+Step 01: 6		install
+Step 02: 10		lib & folder
+
+----  DOOM part-2: Brain, 40 min  ----
+Step 03: 10		[CNN class _init_ p1 create 5 variables]
+Step 04: 10.5	[CNN class _init_ p2 define 5 vars]
+Step 05: 14		[CNN class fn count-neuron]
+Step 06: 6.5	[CNN class fn forward]
+
+---- DOOM part-3: action playing 22 min ----
+Step 07: 4.5	body (SoftmaxBody class) [p1] – init fn
+Step 08: 6.5	body (SoftmaxBody class) [p2] forward fn
+Step 09: 3.5	AI class [p1] – init fn
+Step 10: 8		AI class [p2] – forward fn
+
+---- DOOM part-4: AI training mechanisms  ----
+Step 11: 6.5	Doom env, actions
+Step 12: 4		Building an AI:cnn, body, AI (obj)
+Step 13: 7		Experience Replay
+Step 14: 15.5	Eligibity Trace [p1]: fn
+Step 15: 8.5	Eligibity Trace [p1]: fn                                                                                           
+Step 16: 10.5	Moving Average: MA-class
+
+---- DOOM part-5: Train & Test using DQN ----
+Step 17: 19.5	Apply training mechanisms
+Step 18: 19.5	Test the AI
+
+
+
+
+
+Step 00: env install
+Step 00: env install
+Step 01: install
+Step 02: lib & folder
+
+----  DOOM part-2: Brain, 40 min  ----
+Step 03: CNN class _init_ p1 create 5 variables]
+Step 04: CNN class _init_ p2 define 5 vars]
+Step 05: CNN class fn count-neuron]
+Step 06: CNN class fn forward]
+
+---- DOOM part-3: action playing 22 min ----
+Step 07: body (SoftmaxBody class) [p1] – init fn
+Step 08: body (SoftmaxBody class) [p2] forward fn
+Step 09: AI class [p1] – init fn
+Step 10: AI class [p2] – forward fn
+
+---- DOOM part-4: AI training mechanisms  ----
+Step 11: Doom env, actions
+Step 12: Building an AI:cnn, body, AI (obj)
+Step 13: Experience Replay
+Step 14: Eligibity Trace [p1]: fn
+Step 15: Eligibity Trace [p1]: fn
+Step 16: Moving Average: MA-class
+
+---- DOOM part-5: Train & Test using DQN ----
+Step 17: Apply training mechanisms
+Step 18: Test the AI
+
+
+
+
+### 4 - A3C ### 
+
+----  part 1: Getting Started [30]  ----
+Step 01: Project overview [10]
+Step 02: libraries & packages [8]
+Step 03: normalized_column_init(), weight_init() [13]
+
+----  part 2: Actor Critic [44]  ----
+Step 04: actor_critic class _init_ pt1 [13]
+Step 05: actor_critic class _init_ pt2 [11]
+Step 06: actor_critic class forward() [12]
+Step 07: code explanation: SharedADAM Optimizer [8]
+
+----  part 3: Training Mechanism: synchronization with shared model [53]  ----
+Step 08: Train mechanism: ensuresharedgrad (explan), train() [12]
+Step 09: Train mechanism: synchronize with shared model [12]
+Step 10: Train mechanism: actions [8]
+Step 11: Train mechanism: update shared networks [5]
+Step 12: Train mechanism: policy loss and value loss [16]
+
+----  part 4: Test the AI: Test agent, main run [26]  ----
+Step 13: Test agent (explan) [9]
+Step 14: Main run code (explan), [6]
+Step 15: Test the AI [11]
+
+
+
+----  rev[15-jun-24]  ----
+
+Step 01: Project overview
+Step 02: libraries & packages 
+Step 03: normalized_columns_initializer(), weights_init()
+Step 04: ActorCritic class _init_ pt1
+Step 05: ActorCritic class _init_ pt2
+Step 06: ActorCritic class forward()
+Step 07: code explanation: SharedAdam Optimizer 
+Step 08: Train mechanism: ensuresharedgrad (explanation), train()
+Step 09: Train mechanism: synchronize with shared model
+Step 10: Train mechanism: actions
+Step 11: Train mechanism: update shared networks
+Step 12: Train mechanism: policy loss and value loss
+Step 13: Test agent (explanation)
+Step 14: Main run code (explanation)
+Step 15: Test the AI
