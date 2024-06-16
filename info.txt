@@ -234,46 +234,53 @@ Step 18: Test the AI
 
 ### 4 - A3C ### 
 
-----  rev[12-jun-24]  ----
-
+----  part 1: Getting Started [30]  ----
 Step 01: Project overview [10]
 Step 02: libraries & packages [8]
 Step 03: normalized_column_init(), weight_init() [13]
+
+----  part 2: Actor Critic [44]  ----
 Step 04: actor_critic class _init_ pt1 [13]
 Step 05: actor_critic class _init_ pt2 [11]
 Step 06: actor_critic class forward() [12]
 Step 07: code explanation: SharedADAM Optimizer [8]
-Step 08: Train mechanism: ensuresharegrad (explan), train() [12]
+
+----  part 3: Training Mechanism: synchronization with shared model [53]  ----
+Step 08: Train mechanism: ensuresharedgrad (explan), train() [12]
 Step 09: Train mechanism: synchronize with shared model [12]
 Step 10: Train mechanism: actions [8]
 Step 11: Train mechanism: update shared networks [5]
 Step 12: Train mechanism: policy loss and value loss [16]
+
+----  part 4: Test the AI: Test agent, main run [26]  ----
 Step 13: Test agent (explan) [9]
 Step 14: Main run code (explan), [6]
 Step 15: Test the AI [11]
 
 
 
-----  part 1 [30]  ----
-Step 01: Project overview [10]
-Step 02: libraries & packages [8]
-Step 03: normalized_column_init(), weight_init() [13]
+----  rev[16-jun-24]  ----
 
-----  part 2 [44]  ----
-Step 04: actor_critic class _init_ pt1 [13]
-Step 05: actor_critic class _init_ pt2 [11]
-Step 06: actor_critic class forward() [12]
-Step 07: code explanation: SharedADAM Optimizer [8]
+----  part 1: Getting Started  ----
+4.1: Project overview
+4.2: libraries & packages 
+4.3: normalized_columns_initializer(), weights_init()
 
-----  part 3 [53]  ----
-Step 08: Train mechanism: ensuresharegrad (explan), train() [12]
-Step 09: Train mechanism: synchronize with shared model [12]
-Step 10: Train mechanism: actions [8]
-Step 11: Train mechanism: update shared networks [5]
-Step 12: Train mechanism: policy loss and value loss [16]
+----  part 2: Actor Critic  ----
+4.4: ActorCritic class _init_ pt1
+4.5: ActorCritic class _init_ pt2
+4.6: ActorCritic class forward()
+4.7: code explanation: SharedAdam Optimizer
 
-----  part 4 [26]  ----
-Step 13: Test agent (explan) [9]
-Step 14: Main run code (explan), [6]
-Step 15: Test the AI [11]
+----  part 3: Training Mechanism: synchronization with shared model  ----
+4.8: Train mechanism: ensuresharedgrad (explanation), train()
+4.9: Train mechanism: synchronize with shared model
+4.10: Train mechanism: actions
+4.11: Train mechanism: update shared networks
+4.12: Train mechanism: policy loss and value loss
+
+----  part 4: Test the AI: Test agent, main run  ----
+4.13: Test agent (explanation)
+4.14: Main run code (explanation)
+4.15: Test the AI
 
