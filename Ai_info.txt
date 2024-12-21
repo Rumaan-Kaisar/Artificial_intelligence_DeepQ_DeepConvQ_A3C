@@ -259,20 +259,27 @@ Step 15: Test the AI [11]
 
 
 
-----  rev[15-jun-24]  ----
+----  rev[16-jun-24]  ----
 
-Step 01: Project overview
-Step 02: libraries & packages 
-Step 03: normalized_columns_initializer(), weights_init()
-Step 04: ActorCritic class _init_ pt1
-Step 05: ActorCritic class _init_ pt2
-Step 06: ActorCritic class forward()
-Step 07: code explanation: SharedAdam Optimizer 
-Step 08: Train mechanism: ensuresharedgrad (explanation), train()
-Step 09: Train mechanism: synchronize with shared model
-Step 10: Train mechanism: actions
-Step 11: Train mechanism: update shared networks
-Step 12: Train mechanism: policy loss and value loss
-Step 13: Test agent (explanation)
-Step 14: Main run code (explanation)
-Step 15: Test the AI
+----  part 1: Getting Started  ----
+4.1: Project overview
+4.2: libraries & packages 
+4.3: normalized_columns_initializer(), weights_init()
+
+----  part 2: Actor Critic  ----
+4.4: ActorCritic class _init_ pt1
+4.5: ActorCritic class _init_ pt2
+4.6: ActorCritic class forward()
+4.7: code explanation: SharedAdam Optimizer
+
+----  part 3: Training Mechanism: synchronization with shared model  ----
+4.8: Train mechanism: ensuresharedgrad (explanation), train()
+4.9: Train mechanism: synchronize with shared model
+4.10: Train mechanism: actions
+4.11: Train mechanism: update shared networks
+4.12: Train mechanism: policy loss and value loss
+
+----  part 4: Test the AI: Test agent, main run  ----
+4.13: Test agent (explanation)
+4.14: Main run code (explanation)
+4.15: Test the AI
